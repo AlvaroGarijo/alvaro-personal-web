@@ -1,0 +1,40 @@
+@font-face{
+    font-family: robotoWeb;
+    src: url("/public/fonts/roboto/Roboto-Light.ttf");
+}
+
+@font-face{
+    font-family:Monserrat;
+    src:url("/public/fonts/montserrat/Montserrat-Regular.ttf")
+}
+
+.navbarControl{
+    background-color: #06233B;
+    height: 150px;
+}
+
+.unorderListContainer{
+    margin: auto;
+    width: 60%;
+    padding-top:65px;
+
+}
+
+.listWrapper{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.navbarList{
+    font-family:robotoWeb;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.navbarList:hover{
+    color: #00FFFF;
+}
