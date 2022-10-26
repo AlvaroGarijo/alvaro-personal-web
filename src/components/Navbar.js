@@ -1,5 +1,5 @@
 import './Navbar.css';
-import logoAlvaro from './imageLogo/logoAlvaro.png'
+import logoAlvaro from './images/logoAlvaro.png'
 import { Link } from 'react-router-dom'
 
 export const Navbar = () => {

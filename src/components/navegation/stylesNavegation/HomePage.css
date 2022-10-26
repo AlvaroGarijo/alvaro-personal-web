@@ -1,6 +1,87 @@
-.imageCover{
+@font-face{
+    font-family: barlow;
+    src:url('/public/assets/fonts/Barlow/Barlow-Regular.ttf')
+}
+
+@font-face{
+    font-family: barlowCondensed;
+    src:url('/public/assets/fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf')
+}
+
+@font-face{
+    font-family: barlowCondensedItalic;
+    src:url('/public/assets/fonts/Barlow_Condensed/BarlowCondensed-LightItalic.ttf')
+}
+
+
+
+
+.imageCover{ 
+    width: 100%;
+    height: 90vh;
+    position: relative;
     background-image: url('/public/assets/images/imgCoverHome.jpeg');
-    background-size: center;
-    width: 50px;
-    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+.opacityContainer{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    background-color:#06233bb6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.logoHome{
+    height: 500px;
+    margin-top:1%;
+    
+}
+.nameWeb{
+    font-family: barlowCondensed;
+    text-transform: uppercase;
+    font-size: 10rem;
+    color: white;
+}
+
+.secondNameWeb{
+    font-family: barlowCondensedItalic;
+}
+
+.subNameWeb{
+    font-size: Monserrat;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 10;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.homePageWrapper2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.helloWorld{
+    font-size: 20px;
+}
+
+.imageCentralHome{
+    width: 100px;
+}
+
+.titleHomePage{
+    font-size: 20px;
 }
