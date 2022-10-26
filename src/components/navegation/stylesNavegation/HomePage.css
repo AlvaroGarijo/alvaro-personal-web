@@ -1,0 +1,6 @@
+.imageCover{
+    background-image: url('/public/assets/images/imgCoverHome.jpeg');
+    background-size: center;
+    width: 50px;
+    height: 100px;
+}

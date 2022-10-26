@@ -1,11 +1,11 @@
 @font-face{
     font-family: robotoWeb;
-    src: url("/public/fonts/roboto/Roboto-Light.ttf");
+    src: url("/public/assets/fonts/roboto/Roboto-Light.ttf");
 }
 
 @font-face{
     font-family:Monserrat;
-    src:url("/public/fonts/montserrat/Montserrat-Regular.ttf")
+    src:url("/public//assets/fonts/montserrat/Montserrat-Regular.ttf")
 }
 
 .navbarControl{
