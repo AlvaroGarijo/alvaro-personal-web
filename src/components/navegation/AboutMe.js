@@ -8,7 +8,7 @@ export const AboutMe = () => {
   return (
     <div className='aboutMeWrapper'>
       <div className='headerWrapper'>
-        <h4 className='titleAboutMe'>Sobre mi</h4>
+        <h4 className='titleNavigation'>Sobre mi</h4>
         <p className='phraseAboutMe'>"Ve a por lo difícil, lo fácil lo hace todo el mundo"</p>      
         <p className='knowMe'>Conóceme antes de nada.</p>
         <p className='presentationParagraph'>Mi nombre es Álvaro Garijo, soy entrenador personal, diseñador de páginas web y desarrollador fullstack.</p>
