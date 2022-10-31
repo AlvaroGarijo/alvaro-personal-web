@@ -18,7 +18,7 @@
 
 .imageCover {
     width: 100%;
-    height: 90vh;
+    height: 85vh;
     position: relative;
     background-image: url('/public/assets/images/imgCoverHome.jpeg');
     background-size: cover;
@@ -29,7 +29,7 @@
 
 .opacityContainer {
     width: 100%;
-    height: 90vh;
+    height: 85vh;
     position: relative;
     background-color: #06233bb6;
     background-size: cover;
@@ -69,7 +69,7 @@
 }
 
 .containerIcon {
-    margin-top: 12%;
+    margin-top: 9%;
 }
 
 .animate__animated.animate__bounceIn {
@@ -84,6 +84,61 @@
     padding-top: 10%;
     padding-bottom: 10%;
 
+
+}
+
+.asideNavLinks {
+    width: 148px;
+    position: fixed;
+    top: 30%;
+    right: 0;
+    margin-left: 20px;
+}
+
+.linksSocialMedia {
+    list-style: none;
+    color: #06233bb6;
+}
+.linkSocialMedia:hover{
+    color: #00FFFF;
+}
+
+.listSocial {
+    margin-bottom: 10px;
+    background-color: #45a5ff;
+    border-radius: 100px;
+    width: 55px;
+    height: 55px;
+    padding-top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listSocial:hover{
+    background-color: #06233B;
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+.linkSocialMedia {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 40, 92, 0.755);
+    border-radius: 50px;
+    font-size: 22px;
+    margin-right: 1px;
+    margin-bottom: 14px;
+    color: white;
+    box-shadow: 0px 0px 7px 0px black;
+    filter: drop-shadow(2px 2px 6px rgb(65, 65, 65));
+}
+
+.linkSocialMedia:hover{
+    background-color: #45a5ff;
+    box-shadow: inset 0px 0px 2px 1px black;
 }
 
 .helloWorld {
@@ -119,7 +174,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 100px;
-    
+
 }
 
 
