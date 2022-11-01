@@ -1,7 +1,6 @@
 import React from 'react'
-import './stylesNavegation/AboutMe.css';
+import './stylesNavigation/AboutMe.css';
 import alvaroAboutMe from '../images/alvaroAboutMe.jpg'
-import codeAboutMe from '../images/codeAboutMe.jpg'
 import { AsideSocialMedia } from '../asideSocialMedia/AsideSocialMedia'
 
 export const AboutMe = () => {

@@ -8,7 +8,7 @@ import { AiFillGithub } from 'react-icons/ai';
 // import { BsLinkedin } from 'react-icons/bs';
 // import { BsGithub } from 'react-icons/bs';
 import 'animate.css';
-import './stylesNavegation/HomePage.css'
+import './stylesNavigation/HomePage.css'
 import { Link } from 'react-router-dom';
 import { AsideSocialMedia } from '../asideSocialMedia/AsideSocialMedia';
 

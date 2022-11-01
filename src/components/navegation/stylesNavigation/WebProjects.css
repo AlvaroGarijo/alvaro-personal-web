@@ -1,0 +1,177 @@
+.subtitleNavigationWebProject {
+    font-family: barlow;
+    font-size: 18px;
+    color: rgb(193, 193, 193);
+}
+
+.cardsWrapper {
+    width: 80%;
+    height: 90%;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.cardBox {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2em;
+    margin: 1% 0 0 1%;
+    perspective: 1000px;
+    transition: all 0.3s ease 0s;
+    width: 220px;
+}
+
+.cardBox:hover .card {
+    transform: rotateY(180deg);
+}
+
+.card {
+    font-family: barlowCondensed;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.252);
+    background: rgb(255, 255, 255);
+    cursor: default;
+    height: 220px;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease 0s;
+    width: 100%;
+    -webkit-animation: giro 1s 1;
+    animation: giro 1s 1;
+}
+
+.card .front,
+.card .back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    height: 100%;
+    padding: 0.8em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.card .back {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px black;
+    transform: rotateY(180deg);
+}
+
+.linkBack{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px black;
+    text-decoration: none;
+}
+
+.linkBack:hover{
+    background-color: rgba(203, 203, 203, 0.376);
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.cardBox:nth-child(1) .card .back {
+    background-image: url('../../images/MilesMorales.png');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.cardBox:nth-child(2) .card .back {
+    background-image: url('../../images/elevador.jpeg');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.cardBox:nth-child(3) .card .back {
+    background-image: url('../../images/camaraFotos.jpeg');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.cardBox:nth-child(4) .card .back {
+    background-image: url('../../images/supermercado.jpeg');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.cardBox:nth-child(5) .card .back {
+    background-image: url('../../images/ejercicio.jpeg');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.cardBox:nth-child(6) .card .back {
+    background-image: url('../../images/escritor.jpeg');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.cardBox:nth-child(7) .card .back {
+    background-image: url('../../images/padel.jpeg');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.cardBox:nth-child(8) .card .back {
+    background-image: url('../../images/ejerciciosCode.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.cardBox:nth-child(2) .card {
+    -webkit-animation: giro 1.5s 1;
+    animation: giro 1.5s 1;
+}
+
+.cardBox:nth-child(3) .card {
+    -webkit-animation: giro 2s 1;
+    animation: giro 2s 1;
+}
+
+.cardBox:nth-child(4) .card {
+    -webkit-animation: giro 2.5s 1;
+    animation: giro 2.5s 1;
+}
+
+
+@-webkit-keyframes giro {
+    from {
+        transform: rotateY(180deg);
+    }
+
+    to {
+        transform: rotateY(0deg);
+    }
+}
+
+@keyframes giro {
+    from {
+        transform: rotateY(180deg);
+    }
+
+    to {
+        transform: rotateY(0deg);
+    }
+}

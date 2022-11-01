@@ -1,6 +1,7 @@
 import React from 'react'
-import './stylesNavegation/WebProjects.css'
+import './stylesNavigation/WebProjects.css'
 import { AsideSocialMedia } from '../asideSocialMedia/AsideSocialMedia'
+import { Link } from 'react-router-dom'
 export const WebProjects = () => {
   return (
     <div>
@@ -8,83 +9,83 @@ export const WebProjects = () => {
         <h4 className='titleNavigation'>Proyectos Web</h4>
         <p className='subtitleNavigationWebProject'>Pulsa el ratón y descubre ... </p>
         <div className='cardsWrapper'>
-          <div class="cardBox">
-            <div class="card">
-              <div class="front">
-                    Spiderman
+          <div className="cardBox">
+            <div className="card">
+              <div className="front">
+                Spiderman
               </div>
-              <div class="back">
-                    Spiderman
+              <div className="back">
+                <Link className='linkBack' to='/spidermanWebProject'>Spiderman</Link>                    
               </div>
             </div>
           </div>
-          <div class="cardBox">
-            <div class="card">
-              <div class="front">
+          <div className="cardBox">
+            <div className="card">
+              <div className="front">
                     Excelsior
               </div>
-              <div class="back">
-                    Excelsior
+              <div className="back">
+                <Link className='linkBack' to='/excelsiorWebProject'>Excelsior</Link> 
               </div>
             </div>
           </div>
-          <div class="cardBox">
-            <div class="card">
-              <div class="front">
+          <div className="cardBox">
+            <div className="card">
+              <div className="front">
                     Janu
               </div>
-              <div class="back">
-                    Janu
+              <div className="back">
+                <Link className='linkBack' to='/januWebProject'>Janu</Link> 
               </div>
             </div>
           </div>
-          <div class="cardBox">
-            <div class="card">
-              <div class="front">
+          <div className="cardBox">
+            <div className="card">
+              <div className="front">
                     Covirán
               </div>
-              <div class="back">
-                    Covirán
+              <div className="back">
+                <Link className='linkBack' to='/coviranWebProject'>Covirán</Link> 
               </div>
             </div>
           </div>
-          <div class="cardBox">
-            <div class="card">
-              <div class="front">
+          <div className="cardBox">
+            <div className="card">
+              <div className="front">
                     Fénix-Fit
               </div>
-              <div class="back">
-                    Fénix-Fit
+              <div className="back">
+                <Link className='linkBack' to='/fenixFitWebProject'>Fenix-Fit</Link> 
               </div>
             </div>
           </div>
-          <div class="cardBox">
-            <div class="card">
-              <div class="front">
+          <div className="cardBox">
+            <div className="card">
+              <div className="front">
                     Escritor
               </div>
-              <div class="back">
-                    Escritor
+              <div className="back">
+                <Link className='linkBack' to='/escritorWebProject'>Escritor</Link> 
               </div>
             </div>
           </div>
-          <div class="cardBox">
-            <div class="card">
-              <div class="front">
-                    Padel Manager
+          <div className="cardBox">
+            <div className="card">
+              <div className="front">
+                    PadelManager
               </div>
-              <div class="back">
-                    Padel Manager
+              <div className="back">
+                <Link className='linkBack' to='/padelManagerWebProject'>PadelManager</Link> 
               </div>
             </div>
           </div>
-          <div class="cardBox">
-            <div class="card">
-              <div class="front">
+          <div className="cardBox">
+            <div className="card">
+              <div className="front">
                     Ejercicios Code
               </div>
-              <div class="back">
-                    Ejercicios Code
+              <div className="back">
+              <Link className='linkBack' to='/ejerciciosCodeWebProject'>Ejercicios Code</Link> 
               </div>
             </div>
           </div>
