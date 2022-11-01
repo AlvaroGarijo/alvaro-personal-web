@@ -62,9 +62,9 @@ export const AboutMe = () => {
                 <li>Design Web Responsive</li>
                 <li>Javascript ES6 + React (DOM, Routes, Hooks)</li>
               </ul>
-              <div className='imgAlvaroWrapp'>
+              {/* <div className='imgAlvaroWrapp'>
                 <img className='imgAlvaroTrainer' src={codeAboutMe} alt="alvaroTrainer"/>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
