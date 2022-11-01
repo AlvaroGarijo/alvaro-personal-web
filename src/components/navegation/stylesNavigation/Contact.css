@@ -1,6 +1,5 @@
-
 .contactWrapper {
-    width: 50%;
+    width: 30%;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0px 0px 58px 0px rgba(0, 0, 0, 0.584);
@@ -13,6 +12,7 @@
 
 .titleContact {
     font-family: barlowCondensed;
+    text-align: center;
     margin: 20px;
     text-transform: uppercase;
     font-size: 25px;
@@ -28,6 +28,7 @@
 }
 
 .linkSocialContact {
+    width: 100%;
     font-family: barlow;
     font-size: 20px;
     margin: 10px;
@@ -36,46 +37,46 @@
 }
 
 .linkContact {
-    text-decoration: none;    
+    text-decoration: none;
     color: #06233B;
     font-size: 22px;
 }
 
-.urlContact {
-    margin-left: 20px;
-    font-style: italic;
-}
-
-.urlContact:hover {
-    font-weight: bold;
-    color: #000000;
-}
-
 .iconContact {
-    font-size: 25px;
+    font-size: 30px;
     margin-right: 10px;
-    color: #393939;
-    filter: drop-shadow(0px 0px 8px black);
+    color: #1b1a1a;
+    filter: drop-shadow(0px 0px 10px rgb(64, 149, 175));
 }
 
-.iconContact:hover{
-    color:#00FFFF;
+.buttonContact {
+    border-radius: 10px;
+    border: none;
+    width: 80%;
+    height: 50px;
+    padding-top: 2px;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+
+.buttonContact:hover {
+    box-shadow: 0px 0px 10px 0px rgb(56, 56, 56);
 }
 
 .imgContact1 {
     width: 400px;
     height: 500px;
     position: absolute;
-    margin-left: 400px;
+    margin-left: 300px;
     transform: rotate(20deg);
 
 }
 
 .imgContact2 {
-    width: 300px;
-    height: 300px;
+    width: 380px;
+    height: 350px;
     border-radius: 100%;
     position: absolute;
-    margin-left: 400px;
+    margin-left: 300px;
     margin-top: 100px;
 }
