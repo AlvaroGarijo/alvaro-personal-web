@@ -35,3 +35,18 @@
     color: #595959;
     text-transform: uppercase;
 }
+
+@media only screen and (max-width: 767px) {
+    .footerWrapper{
+        height: 100px;
+    }
+    .unorderListFooter{
+        display: none;
+    }
+
+    .footerParag{
+        text-align: center;
+        font-size: 10px;
+        margin: 25px;
+    }
+}

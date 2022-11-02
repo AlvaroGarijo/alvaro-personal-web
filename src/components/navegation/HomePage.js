@@ -1,12 +1,7 @@
 import React from 'react'
 import logoAlvaroWeb from '../images/logoBlanco.png'
 import imageAlvaro from '../images/alvaroHome.jpg'
-// import iconArrow from '../images/icons/icons8-flecha-ampliar-64.png'
 import { AiFillGithub } from 'react-icons/ai';
-// import { BsInstagram } from 'react-icons/bs';
-// import { BsFacebook } from 'react-icons/bs';
-// import { BsLinkedin } from 'react-icons/bs';
-// import { BsGithub } from 'react-icons/bs';
 import 'animate.css';
 import './stylesNavigation/HomePage.css'
 import { Link } from 'react-router-dom';
@@ -24,10 +19,6 @@ export const HomePage = () => {
             <img className='logoHome' src={logoAlvaroWeb} alt='logoAlvaro'></img>
             <h1 className='nameWeb'>Alvaro <span className='secondNameWeb'>Garijo</span></h1>
             <h5 className='subNameWeb'>WEB DEVELOPER | WEB DESIGN | PERSONAL TRAINER</h5>
-            {/* <div className='containerIcon'>
-              <img className='iconArrow animate__animated animate__bounceIn animate__infinite' src={iconArrow} alt='iconarrow'/>
-            </div> */}
-           
           </div>
         </div>
       </div>
@@ -67,15 +58,7 @@ export const HomePage = () => {
               <h6 className='third-H'>Visita el Blog, ¡no te arrepentirás!</h6>
             </Link>
           </button>
-          <AsideSocialMedia/>
-          {/* <aside className='asideNavLinks'>
-            <ul className='linksSocialMedia'> 
-              <li className='listSocial'><a className='linkSocialMedia' href='https://www.instagram.com/gari_fitvibes/' target='_blank' rel='noreferrer'><BsInstagram/></a></li>
-              <li className='listSocial'><a className='linkSocialMedia' href='https://www.facebook.com/alvaro.garijosanchez' target='_blank' rel='noreferrer'><BsFacebook/></a></li>
-              <li className='listSocial'><a className='linkSocialMedia' href='https://www.linkedin.com/in/alvarogarijosanchez/' target='_blank' rel='noreferrer'><BsLinkedin/></a></li>
-              <li className='listSocial'><a className='linkSocialMedia' href='https://github.com/AlvaroGarijo' target='_blank' rel='noreferrer'><BsGithub/></a></li>
-            </ul>
-          </aside> */}
+          <AsideSocialMedia className='disable'/>
       </div>
     </>
   )
