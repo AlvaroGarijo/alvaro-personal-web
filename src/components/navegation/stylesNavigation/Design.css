@@ -187,6 +187,10 @@
     }
 }
 
+
+/* Media Query */
+
+
 @media only screen and (max-width: 767px) {
     .cardBoxDesign{
         margin-bottom: 30px;

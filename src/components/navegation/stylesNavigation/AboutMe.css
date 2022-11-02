@@ -95,6 +95,22 @@
     margin-bottom: 30px;
 }
 
+
+/* Media Query */
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .phraseAboutMe {
+        font-size: 30px;
+    }
+
+    .presentationParagraph {
+        width: 80%;
+        font-size: 25px;
+    }
+
+}
+
 @media only screen and (max-width: 767px) {
     .aboutMeWrapper {
         width: 100%;
@@ -115,43 +131,43 @@
         margin-bottom: 20px;
     }
 
-    .presentationParagraph{
+    .presentationParagraph {
         font-size: 15px;
         margin-bottom: 0px;
     }
 
-    .imgAlvaroTrainer{
+    .imgAlvaroTrainer {
         width: 150px;
         height: 150px;
     }
 
     .paragraph1,
-    .paragraph2{
+    .paragraph2 {
         font-size: 14px;
         margin: 20px;
     }
 
-    .flexTitleAndList{
+    .flexTitleAndList {
         text-align: center;
     }
 
-    .listStudy{
+    .listStudy {
         text-align: left;
         font-size: 13px;
     }
 
-   .unorderlistWorkingCode{
-       padding:25px;
-   }
+    .unorderlistWorkingCode {
+        padding: 25px;
+    }
 
-    .listStudyCode{
+    .listStudyCode {
         font-size: 14px;
         text-align: left;
         list-style: none;
-    
+
     }
 
-    .italicText{
+    .italicText {
         text-align: left;
         font-size: 12px;
     }

@@ -63,9 +63,19 @@ ul.listWrapper {
 
 /* Media Query */
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     .logoResponsive {
         visibility: hidden;
+    }
+    .listWrapper{
+        width: 100%;
+    }
+    .navbarList{
+        width: 250px;
+        font-size: 12px;
+        margin: 0px 10px 0px 10px;
+        text-align: center;
+        letter-spacing: 1px;
     }
 }
 

@@ -22,9 +22,11 @@
 .listWrapperContact {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
     list-style: none;
     text-decoration: none;
+    padding-left: 0;
 }
 
 .linkSocialContact {
@@ -81,6 +83,24 @@
     margin-top: 100px;
 }
 
+
+
+
+/* Medias Query */
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .imgContact1,
+    .imgContact2{
+        display: none;
+    }
+    .contactWrapper{
+        width: 50%;
+    }
+}
+
+
 @media only screen and (max-width: 767px) {
     .imgContact1,
     .imgContact2{
@@ -89,6 +109,7 @@
 
     .contactWrapper{
         width: 90%;
+        z-index:0;
 
     }
 

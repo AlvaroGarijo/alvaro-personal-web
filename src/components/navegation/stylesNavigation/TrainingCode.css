@@ -39,7 +39,7 @@
 
 .buttonCodeArea,
 .buttonTrainingArea {
-    width: 300px;
+    width: 350px;
     height: 50px;
     border: none;
     border-radius: 10px;
@@ -81,6 +81,34 @@
     font-family: robotoWeb;
     margin:30px;
 }
+
+
+
+
+/* Medias Query */
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .subtitleTrainingAndCode{
+        font-size: 25px;
+    }
+
+    .parag1{
+        text-align: justify;
+    }
+
+    .blogFlexWrapper{
+        justify-content: center;
+    }
+
+    .buttonTrainingArea,
+    .buttonCodeArea{
+        width: 95%;
+    }
+}
+
 
 @media only screen and (max-width: 767px) {
     .subtitleTrainingAndCode{

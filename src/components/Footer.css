@@ -35,6 +35,18 @@
     color: #595959;
     text-transform: uppercase;
 }
+/* Media Query */
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .textFooter{
+        font-size: 15px;
+        margin: auto;
+        width: 70%;
+        text-align: center;
+    }
+}
+
 
 @media only screen and (max-width: 767px) {
     .footerWrapper{

@@ -167,6 +167,33 @@
 
 
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .imageCover,
+    .opacityContainer{
+        width: 100%;
+        height: 500px;
+    }
+    
+    .logoHome{
+        margin-top: 20px;
+    }
+    .nameWeb{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .subNameWeb{
+        width: 70%;
+        font-size: 24px;
+    }
+    .imageCentralHome{
+        width: 220px;
+        height: 220px;
+    }
+    .titleHomePage{
+        font-size: 25px;
+    }
+}
+
 @media only screen and (max-width: 767px) {
 
     .imageCover,
