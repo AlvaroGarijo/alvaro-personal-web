@@ -11,7 +11,6 @@ export const Navbar = () => {
         <input className='checkControl' type='checkbox'/>
         <i className="fas fa-bars"></i>
         <i className="fas fa-times"></i>
-      
           <nav className='navbarControl'>
               <div className='unorderListContainer'>
                   <ul className='listWrapper'>
