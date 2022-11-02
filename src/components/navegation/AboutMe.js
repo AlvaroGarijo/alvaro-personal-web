@@ -21,11 +21,11 @@ export const AboutMe = () => {
             <h4>Para ello realicé los siguientes estudios: </h4>
               <div className='flexlistAndImg'>
                 <ul>
-                  <li>Maestro de Educación Física</li>
-                  <li>Técnico Superior en Actividad Física y Deporte</li>
-                  <li>Gestión en Centros Deportivos</li>
-                  <li>Curso de Técnico en Nutrición y Dietética</li>
-                  <li>Curso en Coaching Deportivo</li>
+                  <li className='listStudy'>Maestro de Educación Física</li>
+                  <li className='listStudy'>Técnico Superior en Actividad Física y Deporte</li>
+                  <li className='listStudy'>Gestión en Centros Deportivos</li>
+                  <li className='listStudy'>Curso de Técnico en Nutrición y Dietética</li>
+                  <li className='listStudy'>Curso en Coaching Deportivo</li>
               </ul>
               
             </div>
@@ -42,12 +42,12 @@ export const AboutMe = () => {
           <p className='paragraph2'>Eso sí voy a recalcar que nunca lo hubiera logrado solo.</p>
 
           <div className='list2AboutMe'>
-            <ul>
-              <li>He podido trabajar profesionalmente con:</li>
+            <ul className='unorderlistWorkingCode'>
+              <li className='listStudyCode'>He podido trabajar profesionalmente con:</li>
               <strong className='italicText'> HTML | CSS | JavaScript | PHP | Laravel | Bitbucket | Fork | Bootstrap | Jquery | MySQL | Gulp </strong>
-              <li>He creado proyectos con: </li>
+              <li className='listStudyCode'>He creado proyectos con: </li>
               <strong className='italicText'> HTML | CSS | JavaScript | React | Bootstrap| Github | VS Code </strong>
-              <li>He diseñado Webs con: </li>
+              <li className='listStudyCode'>He diseñado Webs con: </li>
               <strong className='italicText'> Figma | Canva </strong>
             </ul>
           </div>
@@ -55,12 +55,12 @@ export const AboutMe = () => {
           <div className='flexTitleAndList'>
             <h4>Para todo esto tuve que hacer los siguientes estudios:</h4>
               <div className='flexlistAndImg'>
-                <ul>
-                <li>Bootcamp FullStack + Proyecto</li>
-                <li>Diseño de UX/UI + Figma (prototypes)</li>
-                <li>Design Web Responsive</li>
-                <li>Javascript ES6 + React (DOM, Routes, Hooks)</li>
-              </ul>
+                <ul className='unorderListStudyCode'>
+                  <li className='listStudy'>Bootcamp FullStack + Proyecto</li>
+                  <li className='listStudy'>Diseño de UX/UI + Figma (prototypes)</li>
+                  <li className='listStudy'>Design Web Responsive</li>
+                  <li className='listStudy'>Javascript ES6 + React (DOM, Routes, Hooks)</li>
+                </ul>
               {/* <div className='imgAlvaroWrapp'>
                 <img className='imgAlvaroTrainer' src={codeAboutMe} alt="alvaroTrainer"/>
               </div> */}
