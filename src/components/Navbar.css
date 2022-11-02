@@ -1,39 +1,39 @@
-@font-face{
+@font-face {
     font-family: robotoWeb;
     src: url("/public/assets/fonts/roboto/Roboto-Light.ttf");
 }
 
-@font-face{
-    font-family:Monserrat;
-    src:url("/public//assets/fonts/montserrat/Montserrat-Regular.ttf")
+@font-face {
+    font-family: Monserrat;
+    src: url("/public//assets/fonts/montserrat/Montserrat-Regular.ttf")
 }
 
-.navbarControl{
+.navbarControl {
     background-color: #06233B;
     height: 130px;
-   
+
 }
 
-.logoAlvaroWeb{
+.logoAlvaroWeb {
     width: 55px;
     height: 140px;
     margin-right: 30px;
 }
 
-.unorderListContainer{
+.unorderListContainer {
     margin: auto;
-    width: 65%;
+    width: 75%;
 
 }
 
-.listWrapper{
+.listWrapper {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 }
 
-.navbarList{
-    font-family:robotoWeb;
+.navbarList {
+    font-family: robotoWeb;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -41,6 +41,119 @@
     font-weight: bold;
 }
 
-.navbarList:hover{
+.navbarList:hover {
     color: #00FFFF;
+}
+
+/* Media Query */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .logoResponsive{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbarControl {
+        height: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .respMenu .navbarList {
+        color: inherit;
+        text-decoration: none;
+        display: block;
+        padding: 10px 20px;
+        border-bottom: 2px solid #456789;
+        max-width: 200px;
+        background: #06233B;
+        font-variant: small-caps;
+        text-shadow: 1px 1px black;
+        z-index: 1;
+    }
+
+    .respmenu input[type="checkbox"],
+    .respMenu .fa-bars,
+    .respMenu .fa-times {
+        position: absolute;
+        box-sizing: border-box;
+        margin: 0;
+        margin-left: 30px;
+        padding: 0;
+        top: 15px;
+        width: 38px;
+        height: 38px;
+    }
+
+    .respMenu .fa-bars,
+    .respMenu .fa-times {
+        font-size: 48px;
+        pointer-events: none;
+    }
+
+    .respMenu input[type="checkbox"] {
+        opacity: 0;
+    }
+
+    .respMenu {
+        color: white;
+        position: relative;
+        background: #123456;
+        min-height: 75px;
+    }
+
+    .respMenu nav {
+        display: none;
+    }
+
+    .respMenu input:checked~nav {
+        display: block;
+    }
+
+    .respMenu input:checked~.fa-bars {
+        display: none;
+    }
+
+    .respMenu input:not(:checked)~.fa-times {
+        display: none;
+    }
+
+    .fa-bars {
+        font-size: 10px;
+    }
+
+    .logoAlvaroWeb {
+        display: none;
+    }
+    .logoResponsive{
+        width: 30px;
+        margin-left: 80%;
+        position: absolute;
+       
+    }
+
+    .checkControl{
+       position: absolute;
+       margin-top:20px;
+       margin-left: 30px;
+    }
+
+    .listWrapper {
+        display: flex;
+        flex-direction: column;
+        padding:15px;
+    }
+
+    ul.listWrapper {
+        display: flex;
+        padding-left: 30px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .navbarList {
+        width: 100%;
+    }
 }
