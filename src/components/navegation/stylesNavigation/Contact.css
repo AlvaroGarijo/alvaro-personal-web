@@ -52,7 +52,7 @@
 .buttonContact {
     border-radius: 10px;
     border: none;
-    width: 80%;
+    width: 90%;
     height: 50px;
     padding-top: 2px;
     overflow: hidden;
@@ -79,4 +79,33 @@
     position: absolute;
     margin-left: 300px;
     margin-top: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+    .imgContact1,
+    .imgContact2{
+        display: none;
+    }
+
+    .contactWrapper{
+        width: 90%;
+
+    }
+
+    .listWrapperContact{
+        padding: 0;
+    }
+
+    .linkSocialContact{
+        text-align: center;
+        margin:auto;
+        margin-bottom: 10px;
+    }
+    .buttonContact{
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+
 }

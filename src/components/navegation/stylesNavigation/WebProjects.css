@@ -175,3 +175,9 @@
         transform: rotateY(0deg);
     }
 }
+
+@media only screen and (max-width: 767px) {
+    .cardBox{
+        margin-bottom: 30px;
+    }
+}

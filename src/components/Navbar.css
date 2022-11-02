@@ -40,6 +40,7 @@
 } 
 
 ul.listWrapper {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -88,7 +89,7 @@ ul.listWrapper {
         display: block;
         padding: 10px 20px;
         border-bottom: 2px solid #456789;
-        max-width: 150px;
+        max-width: 165px;
         background: #06233B;
         font-size: 10px;
         text-shadow: 1px 1px black;

@@ -81,3 +81,29 @@
     font-family: robotoWeb;
     margin:30px;
 }
+
+@media only screen and (max-width: 767px) {
+    .subtitleTrainingAndCode{
+        font-size: 18px;
+        text-align: center;
+        margin:20px;
+    }
+    .paragraphTC{
+        width: 80%;
+        text-align: justify;
+    }
+
+    .blogFlexWrapper{
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .buttonCodeArea,
+    .buttonTrainingArea{
+        width: 100%;
+    }
+
+    .blogProxi{
+        text-align: center;
+    }
+}
