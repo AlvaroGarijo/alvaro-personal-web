@@ -67,13 +67,12 @@
 }
 
 .flexlistAndImg {
-    /* display: flex;
-    justify-content: space-between; */
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .imgAlvaroWrapp {
-    margin:40px;
+    margin: 40px;
     text-align: center;
 }
 
@@ -81,17 +80,17 @@
     width: 250px;
     height: 250px;
     border-radius: 130px;
-    
+
 }
 
 .paragraph2 {
     margin-bottom: 20px;
 }
 
-.italicText{
+.italicText {
     font-style: italic;
 }
 
-.list2AboutMe{
+.list2AboutMe {
     margin-bottom: 30px;
 }

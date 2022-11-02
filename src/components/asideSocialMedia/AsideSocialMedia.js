@@ -1,4 +1,5 @@
 import React from 'react'
+import './asideSocialMedia.css'
 import { BsInstagram } from 'react-icons/bs';
 import { BsFacebook } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';

@@ -12,7 +12,9 @@ export const AboutMe = () => {
         <p className='knowMe'>Conóceme antes de nada.</p>
         <p className='presentationParagraph'>Mi nombre es Álvaro Garijo, soy entrenador personal, diseñador de páginas web y desarrollador fullstack.</p>
       </div>
-
+      <div className='imgAlvaroWrapp'>
+             <img className='imgAlvaroTrainer' src={alvaroAboutMe} alt="alvaroTrainer"/>
+      </div>
       <div className='paragraphWrapper'>
         <p className='paragraph1'>Llevo +12 años dedicando mi vida al deporte, al fitness y al entrenamiento deportivo, al coaching hacia mis alumnos, a mejorar vidas, a escuchar a la gente y a tratar de ayudar a todas las personas que han confiado en mi profesionalidad, en mis conocimientos y en mi saber hacer, programar, empatizar y comprender las necesidades de quienes han sido mis alumnos.</p>
           <div className='flexTitleAndList'>
@@ -25,17 +27,15 @@ export const AboutMe = () => {
                   <li>Curso de Técnico en Nutrición y Dietética</li>
                   <li>Curso en Coaching Deportivo</li>
               </ul>
-              <div className='imgAlvaroWrapp'>
-                <img className='imgAlvaroTrainer' src={alvaroAboutMe} alt="alvaroTrainer"/>
-              </div>
+              
             </div>
           </div>
         <div>
         <p className='paragraph2'>Aunque el fitness me gusta, notaba que me faltaba un plan B para evolucionar en mi camino hacia el desarrollo personal y profesional.</p>
           <p className='paragraph2'>Entonces la programación llegó a mi vida...</p>
-          <p className='paragraph2'>Empecé a estudiar programación web en 2021, con un auge en el sector IT, del cual yo era completo desconocido, no entendía Matrix, los ordenadores se me daban fatal.</p>
+          <p className='paragraph2'>Empecé a estudiar programación web en 2021, con un auge en el sector IT, del cual yo era completo desconocido, no entendía casi la peli de Matrix, los ordenadores se me daban fatal.</p>
           <p className='paragraph2'>Mi curva de aprendizaje la inicié con la recomendación de un amigo, empecé buscando información en internet, papá Google, ¿Qué es la programación?, ¿Qué es el Back-end?, ¿Qué es un código, un algoritmo o una etiqueta?</p>
-          <p className='paragraph2'>Empecé desde donde se ha de empezar, desde el principio, mira, busca, lee y trata de comprender lo que lees, para poder ir paso a paso y una vez empiezas a formar una estructura lógica en la mente, ya vas viendo luz en un mundo lleno de sombra.</p>
+          <p className='paragraph2'>Empecé desde donde se ha de empezar, desde el principio, miré, busqué, leí y traté de comprender lo que encontraba, para poder ir paso a paso y una vez empecé a formar una estructura lógica en mi mente, pude ver algo de luz en un mundo lleno de sombras.</p>
           <p className='paragraph2'>Continué con pequeños cursos de maquetación de HTML y CSS básico, terminando de entender lo que hacia con una herramienta llamada editor de código que no había usado nunca y que tenia tantas opciones desconocidas que abrumaba. Pero no desistí, ni me rendí, al contrario, quería saber más, y no estaba contento si quería hacer algo y no podía por falta del no saber.</p>
           <p className='paragraph2'>Bootcamp, la palabra que más de uno ha escuchado de la mano de la programación. Yo decidí hacer un bootcamp presencial (aparte de estar trabajando como autónomo +8 horas al día e intentar conciliar pues también soy padre). Pues lo hice, con mucha ayuda, muchísima, pero conseguí realizar el proyecto fullstack en cuestión de 6 meses, y lo más increíble que a las 2 semanas me llaman para trabajar, flipante.</p>
           <p className='paragraph2'>Me siento muy orgulloso de lo que he conseguido, de los proyectos que he hecho y sigo haciendo, de lo aprendido y lo que me voy llevando de este mundo tan increíble, tan creativo, tan enorme.</p>

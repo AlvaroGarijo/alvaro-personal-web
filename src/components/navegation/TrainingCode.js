@@ -1,5 +1,6 @@
 import React from 'react'
 import './stylesNavigation/TrainingCode.css'
+import { AsideSocialMedia } from '../asideSocialMedia/AsideSocialMedia'
 
 export const TrainingCode = () => {
   return (
@@ -31,6 +32,8 @@ export const TrainingCode = () => {
         </div>
         <p className='blogProxi'>Próximamente estará el blog funcionando... </p>
       </div>
+
+      <AsideSocialMedia/>
     </div>
   )
 }
