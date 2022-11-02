@@ -4,7 +4,6 @@ import { BsFacebook } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 import { FaMailBulk } from 'react-icons/fa'
-import { BsWhatsapp } from 'react-icons/bs'
 import './stylesNavigation/Contact.css';
 import cafeContact from '../images/cafe.jpeg'
 import brownWater from '../images/brownWater.png'
