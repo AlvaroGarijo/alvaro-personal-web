@@ -15,7 +15,8 @@ export const Design = () => {
                 Spiderman
               </div>
               <div className="back">
-                <Link className='linkBack' to='/spidermanWebProject'>Spiderman</Link>                    
+                <Link className='linkBack' to='/spidermanDesign'>Spiderman</Link> 
+                <div className='finishLine'>Finalizado</div>                   
               </div>
             </div>
           </div>
@@ -25,7 +26,8 @@ export const Design = () => {
                     Excelsior
               </div>
               <div className="back">
-                <Link className='linkBack' to='/excelsiorWebProject'>Excelsior</Link> 
+                <Link className='linkBack' to='/excelsiorWebProject'>Excelsior</Link>
+                <div className='developerLine'>En Desarrollo</div> 
               </div>
             </div>
           </div>
@@ -35,7 +37,8 @@ export const Design = () => {
                     Janu
               </div>
               <div className="back">
-                <Link className='linkBack' to='/januWebProject'>Janu</Link> 
+                <Link className='linkBack' to='/januWebProject'>Janu</Link>
+                <div className='developerLine'>En Desarrollo</div> 
               </div>
             </div>
           </div>
@@ -45,7 +48,8 @@ export const Design = () => {
                     Covirán
               </div>
               <div className="back">
-                <Link className='linkBack' to='/coviranWebProject'>Covirán</Link> 
+                <Link className='linkBack' to='/coviranDesign'>Covirán</Link>
+                <div className='finishLine'>Finalizado</div> 
               </div>
             </div>
           </div>
@@ -55,7 +59,8 @@ export const Design = () => {
                     Fénix-Fit
               </div>
               <div className="back">
-                <Link className='linkBack' to='/fenixFitWebProject'>Fenix-Fit</Link> 
+                <Link className='linkBack' to='/fenixFitWebProject'>Fenix-Fit</Link>
+                <div className='finishLine'>Finalizado</div> 
               </div>
             </div>
           </div>
@@ -65,7 +70,8 @@ export const Design = () => {
                     Escritor
               </div>
               <div className="back">
-                <Link className='linkBack' to='/escritorWebProject'>Escritor</Link> 
+                <Link className='linkBack' to='/escritorWebProject'>Escritor</Link>
+                <div className='finishLine'>Finalizado</div>  
               </div>
             </div>
           </div>
@@ -75,7 +81,8 @@ export const Design = () => {
                     PadelManager
               </div>
               <div className="back">
-                <Link className='linkBack' to='/padelManagerWebProject'>PadelManager</Link> 
+                <Link className='linkBack' to='/padelManagerWebProject'>PadelManager</Link>
+                <div className='finishLine'>Finalizado</div> 
               </div>
             </div>
           </div>
@@ -85,7 +92,8 @@ export const Design = () => {
                     Ejercicios Code
               </div>
               <div className="back">
-                <Link className='linkBack' to='/ejerciciosCodeWebProject'>Ejercicios Code</Link> 
+                <Link className='linkBack' to='/ejerciciosCodeWebProject'>Ejercicios Code</Link>
+                <div className='finishLine'>Finalizado</div> 
               </div>
             </div>
           </div>
@@ -95,7 +103,8 @@ export const Design = () => {
                     Laboratorio Dental
               </div>
               <div className="back">
-                <Link className='linkBack' to='/laboratorioDesign'> Laboratorio Dental</Link> 
+                <Link className='linkBack' to='/laboratorioDesign'> Laboratorio Dental</Link>
+                <div className='developerLine'>En Desarrollo</div> 
               </div>
             </div>
           </div>
@@ -105,7 +114,8 @@ export const Design = () => {
                     Asesoría
               </div>
               <div className="back">
-                <Link className='linkBack' to='/ejerciciosCodeWebProject'>Asesoría</Link> 
+                <Link className='linkBack' to='/ejerciciosCodeWebProject'>Asesoría</Link>
+                <div className='finishLine'>Finalizado</div> 
               </div>
             </div>
           </div>
@@ -115,7 +125,8 @@ export const Design = () => {
                     Sarfati Garden
               </div>
               <div className="back">
-                <Link className='linkBack' to='/ejerciciosCodeWebProject'>Sarfati Garden</Link> 
+                <Link className='linkBack' to='/ejerciciosCodeWebProject'>Sarfati Garden</Link>
+                <div className='finishLine'>Finalizado</div> 
               </div>
             </div>
           </div>
@@ -125,7 +136,8 @@ export const Design = () => {
                     Curriculum Vitae
               </div>
               <div className="back">
-                <Link className='linkBack' to='/ejerciciosCodeWebProject'>Curriculum Vitae</Link> 
+                <Link className='linkBack' to='/ejerciciosCodeWebProject'>Curriculum Vitae</Link>
+                <div className='finishLine'>Finalizado</div> 
               </div>
             </div>
           </div>

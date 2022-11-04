@@ -5,8 +5,7 @@
 }
 
 .cardsWrapper {
-    width: 80%;
-    height: 90%;
+    width: 70%;
     padding: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -49,6 +48,7 @@
 .card .front,
 .card .back {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     backface-visibility: hidden;
@@ -155,6 +155,16 @@
     animation: giro 2.5s 1;
 }
 
+.finishLine{
+    margin-top: 10px;
+    width: 220px;
+    background-color: rgba(72, 248, 125, 0.67);
+}
+.developerLine{
+    margin-top: 10px;
+    width: 220px;
+    background-color: rgba(255, 123, 123, 0.67);
+}
 
 @-webkit-keyframes giro {
     from {
@@ -181,9 +191,19 @@
 
 /* Media Query */
 
-
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .cardsWrapper {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+}
 
 @media only screen and (max-width: 767px) {
+    
+    .cardsWrapper {
+        width: 90%;
+        margin-bottom: 20px;
+    }
     .cardBox{
         margin-bottom: 30px;
     }
