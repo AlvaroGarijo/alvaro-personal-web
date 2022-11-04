@@ -1,6 +1,5 @@
-.squareGreen,
-.squareRed,
-.squareWhite{
+.squareGold {
+    background-color: #8b8900;
     text-align: center;
     color: white;
     border-radius: 10px;
@@ -10,21 +9,7 @@
     padding-top: 3px;
 }
 
-
-.squareGreen{
-    background-color:#009045 ;
-}
-.squareRed{
-    background-color:#BF0411;
-}
-
-.squareWhite{
-    background-color: #FFFFFF;
-    color:black;
-    border: 1px solid black;
-}
-
-.cardDesignWrapperCoviran{
+.cardDesignWrapperFenixFit {
     width: 90%;
     padding: 20px;
     border-radius: 10px;
@@ -32,8 +17,9 @@
     text-align: center;
     margin-bottom: 30px;
 }
-.cardImageCoviran{
-    width: 90%;
+
+.cardImageFenixFit {
+    width: 70%;
     box-shadow: 0px 0px 5px 0px gray;
     border-radius: 10px;
 }

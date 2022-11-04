@@ -1,0 +1,37 @@
+.squareDarkBlueAses,
+.squareLightBlueAses,
+.squareYellowAses{
+    background-color: #8b8900;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+    padding-top: 3px;
+}
+
+.squareDarkBlueAses{
+    background-color:#00213d ;
+}
+.squareLightBlueAses{
+    background-color:#1b4d79 ;
+}
+.squareYellowAses{
+    color: black;
+    background-color:#ffde59 ;
+}
+
+.cardDesignWrapperAsesoria{
+    text-align: center;
+    padding: 40px;
+    width: 50%;
+    box-shadow: 0px 0px 5px 0px gray;
+    border-radius: 10px;
+}
+
+.cardImageAsesoria{
+    width: 60%;
+    box-shadow: 0px 0px 5px 0px gray;
+    border-radius: 10px;
+}

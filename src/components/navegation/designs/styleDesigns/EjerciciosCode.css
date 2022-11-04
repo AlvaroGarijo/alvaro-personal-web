@@ -1,0 +1,10 @@
+.cardDesignWrapperExercise{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.imgDesignEjercicio{
+    margin: 20px;
+}

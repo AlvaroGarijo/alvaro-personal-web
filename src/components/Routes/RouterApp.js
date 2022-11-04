@@ -10,6 +10,12 @@ import { TrainingCode } from '../navegation/TrainingCode'
 import { SpidermanDesign } from '../navegation/designs/SpidermanDesign'
 import { WebProjects } from '../navegation/WebProjects'
 import { CoviranDesign } from '../navegation/designs/CoviranDesign'
+import { FenixFitDesign } from '../navegation/designs/FenixFitDesign'
+import { EscritorDesign } from '../navegation/designs/EscritorDesign'
+import { PadelManager } from '../navegation/designs/PadelManager'
+import { AsesoriaDesign } from '../navegation/designs/AsesoriaDesign'
+import { CurriculumDesign } from '../navegation/designs/CurriculumDesign'
+import { EjerciciosCodeDesign } from '../navegation/designs/EjerciciosCodeDesign'
 
 export const RouterApp = () => {
   return (
@@ -24,9 +30,18 @@ export const RouterApp = () => {
               <Route path='/trainingCode' element={<TrainingCode/>}/>
               <Route path='/contact' element={<Contact/>}/>
 
+
               {/* Rutas de Diseño */}
+
               <Route path='/spidermanDesign' element={<SpidermanDesign/>}/>
               <Route path='/coviranDesign' element={<CoviranDesign/>}/>
+              <Route path='/fenixFitDesign' element={<FenixFitDesign/>}/>
+              <Route path='/escritorDesign' element={<EscritorDesign/>}/>
+              <Route path='/padelManagerDesign' element={<PadelManager/>}/>
+              <Route path='/asesoriaDesign' element={<AsesoriaDesign/>}/>
+              <Route path='/ejerciciosCodeDesign' element={<EjerciciosCodeDesign/>}/>
+              <Route path='/curriculumDesign' element={<CurriculumDesign/>}/>
+             
           </Routes>
           <Footer/>
         </BrowserRouter>

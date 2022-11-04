@@ -1,0 +1,30 @@
+.squareDarkBlueCV,
+.squareLightBlueCV{
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+    padding-top: 3px;
+}
+
+.squareDarkBlueCV{
+    background-color:#001847 ;
+}
+.squareLightBlueCV{
+    background-color:#00618A ;
+}
+
+.cardDesignWrapperCV{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cardImageCV{
+    width: 30%;
+    border-radius: 10px;
+    margin: 20px;
+
+}

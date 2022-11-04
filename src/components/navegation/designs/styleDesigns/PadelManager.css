@@ -1,0 +1,30 @@
+.squareGreenPadel,
+.squareBluePadel{
+    background-color: #8b8900;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+    padding-top: 3px;
+}
+
+.squareGreenPadel{
+    background-color: #6ede29;
+}
+.squareBluePadel{
+    background-color: #0d003b;
+}
+
+.cardImagePadelManagerMobile{
+    width: 30%;
+    box-shadow: 0px 0px 5px 0px gray;
+    border-radius: 10px;
+}
+
+.cardImagePadelManager{
+    width: 60%;
+    box-shadow: 0px 0px 5px 0px gray;
+    border-radius: 10px;
+}
