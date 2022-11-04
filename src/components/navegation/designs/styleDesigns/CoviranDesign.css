@@ -1,0 +1,25 @@
+.squareGreen,
+.squareRed,
+.squareWhite{
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+
+.squareGreen{
+    background-color:#009045 ;
+}
+.squareRed{
+    background-color:#BF0411;
+}
+
+.squareWhite{
+    background-color: #FFFFFF;
+    color:black;
+    border: 1px solid black;
+}

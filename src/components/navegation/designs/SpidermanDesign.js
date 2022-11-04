@@ -12,7 +12,7 @@ import { TbArrowBackUp } from 'react-icons/tb'
 export const SpidermanDesign = () => {
   return (
     <div>
-        <div className='webDesignSpiderMan'>
+        <div className='webDesign'>
             <h4 className='titleNavigation'>Diseño Spider-man</h4>
             <div className='headerDesignWrapper'>
                 <p className='titleColorsDesign'>Gama de colores y fuente especial en el diseño: </p>
