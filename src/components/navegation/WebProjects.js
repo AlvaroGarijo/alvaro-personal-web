@@ -1,6 +1,7 @@
 import React from 'react'
 import './stylesNavigation/WebProjects.css'
 import { AsideSocialMedia } from '../asideSocialMedia/AsideSocialMedia'
+import { Link } from 'react-router-dom'
 export const WebProjects = () => {
   return (
     <div>
@@ -25,8 +26,7 @@ export const WebProjects = () => {
                     Excelsior
               </div>
               <div className="back">
-                <div className='linkBack'>Excelsior</div>
-
+                <Link className='linkBack' to='/buildItPage'> Excelsior</Link>
                 <div className='developerLine'>En Desarrollo</div>
               </div>
             </div>

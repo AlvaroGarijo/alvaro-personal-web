@@ -26,7 +26,7 @@ export const Design = () => {
                     Excelsior
               </div>
               <div className="back">
-                <Link className='linkBack' to='/excelsiorWebProject'>Excelsior</Link>
+                <Link className='linkBack' to='/buildItPage'>Excelsior</Link>
                 <div className='developerLine'>En Desarrollo</div> 
               </div>
             </div>
@@ -37,7 +37,7 @@ export const Design = () => {
                     Janu
               </div>
               <div className="back">
-                <Link className='linkBack' to='/januWebProject'>Janu</Link>
+                <Link className='linkBack' to='/buildItPage'>Janu</Link>
                 <div className='developerLine'>En Desarrollo</div> 
               </div>
             </div>
@@ -93,7 +93,7 @@ export const Design = () => {
                     Laboratorio Dental
               </div>
               <div className="back">
-                <Link className='linkBack' to='/laboratorioDesign'> Laboratorio Dental</Link>
+                <Link className='linkBack' to='/buildItPage'> Laboratorio Dental</Link>
                 <div className='developerLine'>En Desarrollo</div> 
               </div>
             </div>
@@ -115,7 +115,7 @@ export const Design = () => {
                     Sarfati Garden
               </div>
               <div className="back">
-                <Link className='linkBack' to='/ejerciciosCodeWebProject'>Sarfati Garden</Link>
+                <Link className='linkBack' to='/buildItPage'>Sarfati Garden</Link>
                 <div className='developerLine'>En Desarrollo</div> 
               </div>
             </div>

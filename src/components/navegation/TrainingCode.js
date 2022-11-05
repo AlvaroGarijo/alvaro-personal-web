@@ -10,7 +10,8 @@ export const TrainingCode = () => {
         <h2 className='subtitleTrainingAndCode'>"Entrena para la vida, para la salud física y mental"</h2>
         <div className='paragraphTC'>
           <p className='parag1'>Empieza por donde quieras, pero empieza.</p>
-          <p className='parag1'>Como os comento en el apartado sobre mi, más de 10 años me avalan como entrenador deportivo y personal, en los cuales he podido mejorar la vida de muchas personas y de muchos amigos y más de un año como programador web.</p>
+          <p className='parag1'>Como os comento en el apartado sobre mi, más de 10 años me avalan como entrenador deportivo y personal, en los cuales he podido mejorar la vida de muchas personas.</p>
+          <p className='parag1'>También con un año de experiencia como programador web, compartiré contigo algunos detalles, curiosidades y aspectos a resaltar de mi cambio de profesión.</p>
           <p className='parag1'>Aquí os dejaré algunos tips de entrenamiento físico para que conozcáis de primera mano algunas cositas interesantes y otros de programación que os podrán ayudar.</p>
         </div>
 

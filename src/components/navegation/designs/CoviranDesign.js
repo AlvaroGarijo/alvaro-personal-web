@@ -27,7 +27,7 @@ export const CoviranDesign = () => {
             </div>
         </div>
         <div className='cardDesignWrapperCoviran'>
-        <p className='titleCardDesign'>Ejemplo de página de contacto de personaje en toda la web: </p>
+        <p className='titleCardDesign'>Ejemplo de página de contacto de la web: </p>
                 <img className='cardImageCoviran' src={coviranContact} alt='card'/>
         </div>
         <div className='cardDesignWrapperCoviran'>

@@ -10,6 +10,8 @@ import curriculum2_2 from '../../images/curriculum2-2.png'
 import curriculum2_3 from '../../images/curriculum2-3.png'
 import curriculum2_4 from '../../images/curriculum2-4.png'
 import './styleDesigns/CurriculumDesign.css'
+import curriculum1 from '../../documentos/curriculum1.pdf'
+import curriculum2 from '../../documentos/curriculum2.pdf'
 
 export const CurriculumDesign = () => {
   return (
@@ -31,14 +33,18 @@ export const CurriculumDesign = () => {
         </div>
     </div>
     <div className='cardDesignWrapperCV'>
-    
-            <p className='titleCardDesign'>Curriculum 1</p>
+            
+            <p className='titleCardDesign'>Curriculum 1  
+                <a className='titleCardDesign' href={curriculum1} target='_blank' rel='noreferrer'> Descarga Aquí </a>
+            </p>
             <img className='cardImageCV' src={curriculum1_1} alt='card'/>
             <img className='cardImageCV' src={curriculum1_2} alt='card'/>
             <img className='cardImageCV' src={curriculum1_3} alt='card'/>
     </div>
     <div className='cardDesignWrapperCV'>
-            <p className='titleCardDesign'>Curriculum 2</p>
+            <p className='titleCardDesign'>Curriculum 2  
+                <a className='titleCardDesign' href={curriculum2} target='_blank' rel='noreferrer'> Descarga Aquí </a>
+            </p>
             <img className='cardImageCV' src={curriculum2_1} alt='card'/>
             <img className='cardImageCV' src={curriculum2_2} alt='card'/>
             <img className='cardImageCV' src={curriculum2_3} alt='card'/>

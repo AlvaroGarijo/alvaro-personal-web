@@ -16,6 +16,7 @@ import { PadelManager } from '../navegation/designs/PadelManager'
 import { AsesoriaDesign } from '../navegation/designs/AsesoriaDesign'
 import { CurriculumDesign } from '../navegation/designs/CurriculumDesign'
 import { EjerciciosCodeDesign } from '../navegation/designs/EjerciciosCodeDesign'
+import { BuildIt } from '../buildIT/BuildIt'
 
 export const RouterApp = () => {
   return (
@@ -42,6 +43,8 @@ export const RouterApp = () => {
               <Route path='/ejerciciosCodeDesign' element={<EjerciciosCodeDesign/>}/>
               <Route path='/curriculumDesign' element={<CurriculumDesign/>}/>
              
+              <Route path='/buildItPage' element={<BuildIt/>}/>
+
           </Routes>
           <Footer/>
         </BrowserRouter>
