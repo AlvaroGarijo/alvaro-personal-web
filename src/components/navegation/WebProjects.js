@@ -12,7 +12,8 @@ export const WebProjects = () => {
           <div className="cardBox">
             <div className="card">
               <div className="front">
-                Spiderman
+                  <span className='titleFront'>Spiderman</span>
+                  <a className='linkBackMobile' href='https://spiderman-project-m2j7zrvpk-alvarogarijo.vercel.app/' target='_blank' rel='noreferrer' >Spiderman</a>
               </div>
               <div className="back">
                 <a className='linkBack' href='https://spiderman-project-m2j7zrvpk-alvarogarijo.vercel.app/' target='_blank' rel='noreferrer' >Spiderman</a>
@@ -23,7 +24,8 @@ export const WebProjects = () => {
           <div className="cardBox">
             <div className="card">
               <div className="front">
-                    Excelsior
+                <span className='titleFront'>Excelsior</span>
+                <Link className='linkBackMobile' to='/buildItPage'> Excelsior </Link>
               </div>
               <div className="back">
                 <Link className='linkBack' to='/buildItPage'> Excelsior</Link>
@@ -34,7 +36,9 @@ export const WebProjects = () => {
           <div className="cardBox">
             <div className="card">
               <div className="front">
-                    Janu
+                <span className='titleFront'>Janu</span>
+                <Link className='linkBackMobile' to='/buildItPage'> Janu </Link>
+
               </div>
               <div className="back">
               <div className='linkBack'>Janu</div>
@@ -45,7 +49,9 @@ export const WebProjects = () => {
           <div className="cardBox">
             <div className="card">
               <div className="front">
-                    Covirán
+                <span className='titleFront'>Covirán</span>
+                <Link className='linkBackMobile' to='/buildItPage'> Covirán </Link>
+
               </div>
               <div className="back">
                 <div className='linkBack'>Covirán</div>
@@ -56,7 +62,9 @@ export const WebProjects = () => {
           <div className="cardBox">
             <div className="card">
               <div className="front">
-                    Fénix-Fit
+                <span className='titleFront'>Fenix-Fit</span>
+                <a className='linkBackMobile' href='https://github.com/AlvaroGarijo/Fenix' target='_blank' rel='noreferrer' >Fenix-Fit</a>
+
               </div>
               <div className="back">
                 <a className='linkBack' href='https://github.com/AlvaroGarijo/Fenix' target='_blank' rel='noreferrer' >Fenix-Fit</a>
@@ -67,7 +75,9 @@ export const WebProjects = () => {
           <div className="cardBox">
             <div className="card">
               <div className="front">
-                    Escritor
+                <span className='titleFront'>Escritor</span>
+                <Link className='linkBackMobile' to='/buildItPage'> Escritor </Link>
+
               </div>
               <div className="back">
                 <div className='linkBack'>Escritor</div>
@@ -78,7 +88,8 @@ export const WebProjects = () => {
           <div className="cardBox">
             <div className="card">
               <div className="front">
-                    PadelManager
+                <span className='titleFront'>PadelManager</span>
+                <a className='linkBackMobile' href='https://padelmanager.com/' target='_blank' rel='noreferrer' >PadelManager</a>
               </div>
               <div className="back">
                 <a className='linkBack' href='https://padelmanager.com/' target='_blank' rel='noreferrer' >PadelManager</a>
@@ -89,7 +100,8 @@ export const WebProjects = () => {
           <div className="cardBox">
             <div className="card">
               <div className="front">
-                    Ejercicios Code
+                <span className='titleFront'>Ejercicios Code</span>
+                <a className='linkBackMobile' href='https://github.com/AlvaroGarijo?tab=repositories' target='_blank' rel='noreferrer' >Ejercicios Variados</a>
               </div>
               <div className="back">
                 <a className='linkBack' href='https://github.com/AlvaroGarijo?tab=repositories' target='_blank' rel='noreferrer' >Ejercicios Variados</a>

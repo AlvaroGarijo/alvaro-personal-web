@@ -52,9 +52,10 @@
 @media only screen and (max-width: 767px) {
     .imgBuildIt{
         width: 90%;
+        margin-top: 50px;
     }
     .buildTitle{
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
     }
 }
