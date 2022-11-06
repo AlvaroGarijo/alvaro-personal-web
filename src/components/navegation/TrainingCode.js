@@ -1,6 +1,7 @@
 import React from 'react'
 import './stylesNavigation/TrainingCode.css'
 import { AsideSocialMedia } from '../asideSocialMedia/AsideSocialMedia'
+import { Link } from 'react-router-dom'
 
 export const TrainingCode = () => {
   return (
@@ -18,7 +19,9 @@ export const TrainingCode = () => {
         <div className='blogFlexWrapper'>
           <div className='trainingArea'>
             <h4 className='titleArea'>Training</h4>
-            <button className='buttonTrainingArea desabledTraining'><a className='linkArea' href='#'> ¿Por qué entrenar fuerza?</a></button>
+            <button className='buttonTrainingArea'>
+              <Link to='/cosasATenerEnCuentaGym' className='linkArea'>6 cosas necesarias para ir al gimnasio</Link>
+            </button>
             <button className='buttonTrainingArea desabledTraining'><a className='linkArea' href='#'> Suplementación, ¿Si o No?</a></button>
             <button className='buttonTrainingArea desabledTraining'><a className='linkArea' href='#'> ¿Cómo sé que zapatilla comprar?</a></button>
             <button className='buttonTrainingArea desabledTraining'><a className='linkArea' href='#'> ¿Antes de contratar un "PT" lee esto?</a></button>

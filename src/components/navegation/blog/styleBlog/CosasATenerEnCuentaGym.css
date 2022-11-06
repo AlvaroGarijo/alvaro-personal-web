@@ -1,0 +1,75 @@
+.blogWrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.titleAreaBlog {
+    margin-top: 50px;
+    font-family: robotoWeb;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #282828;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.titleBlog {
+    text-align: center;
+    font-family: barlowCondensed;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #747474;
+    margin-bottom: 30px;
+}
+
+.containerWrapperBlog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(202, 202, 202);
+    padding:40px;
+}
+
+.subtitleBlog {
+    font-size: 30px;
+    font-family: barlow;
+    margin: 20px;
+    color: #06233B;
+}
+
+.paragBlog{
+    font-size: 20px;
+    padding:3px;
+    text-align:justify;
+}
+
+.linkComeBackBlog{
+    text-align: center;
+}
+
+.crossOutText{
+    text-decoration: line-through;
+}
+
+/* gifs */
+
+.gifBagThings,
+.gifClockThings,
+.gifTrainingThings,
+.gifTiredThings,
+.gifStudyThings,
+.gifEatThings,
+.gifGymBroThings{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    border-radius: 10px;
+}

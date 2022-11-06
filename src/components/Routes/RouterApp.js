@@ -17,6 +17,7 @@ import { AsesoriaDesign } from '../navegation/designs/AsesoriaDesign'
 import { CurriculumDesign } from '../navegation/designs/CurriculumDesign'
 import { EjerciciosCodeDesign } from '../navegation/designs/EjerciciosCodeDesign'
 import { BuildIt } from '../buildIT/BuildIt'
+import { CosasATenerEnCuentaGym } from '../navegation/blog/CosasATenerEnCuentaGym'
 
 export const RouterApp = () => {
   return (
@@ -43,7 +44,13 @@ export const RouterApp = () => {
               <Route path='/ejerciciosCodeDesign' element={<EjerciciosCodeDesign/>}/>
               <Route path='/curriculumDesign' element={<CurriculumDesign/>}/>
              
+             {/* Ruta de Página en Construcción */}
+
               <Route path='/buildItPage' element={<BuildIt/>}/>
+
+              {/* Rutas del blog */}
+
+              <Route path='/cosasATenerEnCuentaGym' element={<CosasATenerEnCuentaGym/>}/>
 
           </Routes>
           <Footer/>
