@@ -73,3 +73,51 @@
     width: 30%;
     border-radius: 10px;
 }
+
+
+/* Media Query */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .containerWrapperBlog{
+        width: 90%;
+    }
+    .titleBlog{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .containerWrapperBlog{
+        width: 95%;
+    }
+
+    .titleBlog{
+        font-size: 18px;
+    }
+
+    .subtitleBlog{
+        text-align: left;
+        margin: 10px;
+        margin-top: 30px;
+        font-size: 17px;
+
+    }
+
+    .paragBlog{
+        font-size: 16px;
+    }
+
+    .gifBagThings,
+.gifClockThings,
+.gifTrainingThings,
+.gifTiredThings,
+.gifStudyThings,
+.gifEatThings,
+.gifGymBroThings{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    border-radius: 10px;
+}
+}

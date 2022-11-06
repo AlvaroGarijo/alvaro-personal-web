@@ -48,7 +48,7 @@ export const CosasATenerEnCuentaGym = () => {
            <img className='gifTiredThings' src={tired} alt='tiredGif'/>
               <p className='paragBlog'>No todos los días uno/a se levanta de la misma forma, ya que habrá días en los que te comas el mundo y días que te sobran 20 horas, y es muy difícil lidiar con ello, por eso es importante tener técnicas de motivación durante tu sesión de entrenamiento ya sea con tu entrenador que te anime, tu compi de entreno o con tu música más cañera.</p>
           
-            <h4 className='subtitleBlog'>5º Alimentación/Suplementación</h4>
+            <h4 className='subtitleBlog'>5º Nutrición</h4>
             <img className='gifEatThings' src={eatGoku} alt='eatGif'/>
               <p className='paragBlog'>La suplementación NO ES OBLIGATORIA para hacer crecer tus musculos, pero ayuda. Lo más importante es que tengas un control nutricional diario acorde con tu objetivo deportivo|saludable.</p>
               <p className='paragBlog'>Por ejemplo si quieres bajar de peso, busca el déficit calórico, si quieres realizar volumen, busca un superavit, trata de cuidarte por fuera y por dentro, juega con la comida en base a tu salud sobre todo, ya que al final es lo más importante.</p>
