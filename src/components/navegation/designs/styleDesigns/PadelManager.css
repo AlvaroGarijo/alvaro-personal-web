@@ -16,7 +16,26 @@
 .squareBluePadel{
     background-color: #0d003b;
 }
+.cardDesignWrapperPadelManager{
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
 
+.cardDesignFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cardImagePadelManagerDesign{
+    width: 30%;
+    box-shadow: 0px 0px 5px 0px gray;
+    border-radius: 10px;
+    margin: 30px;
+}
 .cardImagePadelManagerMobile{
     width: 30%;
     box-shadow: 0px 0px 5px 0px gray;

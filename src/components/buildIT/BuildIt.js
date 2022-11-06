@@ -12,7 +12,7 @@ export const BuildIt = () => {
       <div className='linkComeBackDesignsWrapper'>
 
         {/* hacer clase condicional, si esta en diseño, ve a diseño si no ve a proyectos */}
-        <Link to='/design' className='linkComeBackWebProjects'> <TbArrowBackUp/> Visita Proyectos Web </Link>
+        <Link to='/webProjects' className='linkComeBackWebProjects'> <TbArrowBackUp/> Visita Proyectos Web </Link>
         <Link to='/design' className='linkComeBackDesigns'> <TbArrowBackUp/> Visita Diseños </Link>
        
       </div>
