@@ -24,6 +24,10 @@
     margin-right: 30px;
 }
 
+.logoAlvaroWeb:hover{
+    filter: drop-shadow(1px 1px 2px rgba(189, 189, 189, 0.71));
+}
+
 .logoResponsive {
     visibility: hidden;
 }
