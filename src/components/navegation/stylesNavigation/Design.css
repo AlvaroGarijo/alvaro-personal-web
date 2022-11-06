@@ -223,4 +223,7 @@
     .cardBox{
         margin-bottom: 30px;
     }
+    .front{
+        display: none;
+    }
 }
