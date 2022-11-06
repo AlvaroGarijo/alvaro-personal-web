@@ -68,13 +68,13 @@
     transform: rotateY(180deg);
 }
 
-.linkBack{
+.linkBack {
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 3px black;
     text-decoration: none;
 }
 
-.linkBack:hover{
+.linkBack:hover {
     background-color: rgba(203, 203, 203, 0.376);
     border-radius: 3px;
     padding: 5px;
@@ -111,6 +111,7 @@
     border: 2px solid black;
     border-radius: 10px;
 }
+
 .cardBox:nth-child(5) .card .back {
     background-image: url('../../images/ejercicio.jpeg');
     background-size: cover;
@@ -118,6 +119,7 @@
     border: 2px solid black;
     border-radius: 10px;
 }
+
 .cardBox:nth-child(6) .card .back {
     background-image: url('../../images/escritor.jpeg');
     background-size: cover;
@@ -125,6 +127,7 @@
     border: 2px solid black;
     border-radius: 10px;
 }
+
 .cardBox:nth-child(7) .card .back {
     background-image: url('../../images/padel.jpeg');
     background-size: cover;
@@ -132,6 +135,7 @@
     border: 2px solid black;
     border-radius: 10px;
 }
+
 .cardBox:nth-child(8) .card .back {
     background-image: url('../../images/ejerciciosCode.jpg');
     background-size: cover;
@@ -155,12 +159,13 @@
     animation: giro 2.5s 1;
 }
 
-.finishLine{
+.finishLine {
     margin-top: 10px;
     width: 220px;
     background-color: rgba(72, 248, 125, 0.67);
 }
-.developerLine{
+
+.developerLine {
     margin-top: 10px;
     width: 220px;
     background-color: rgba(255, 123, 123, 0.67);
@@ -199,12 +204,15 @@
 }
 
 @media only screen and (max-width: 767px) {
-    
+
     .cardsWrapper {
         width: 90%;
         margin-bottom: 20px;
     }
-    .cardBox{
+
+    .cardBox {
         margin-bottom: 30px;
     }
+
+
 }

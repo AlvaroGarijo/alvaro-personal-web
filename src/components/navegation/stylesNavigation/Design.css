@@ -152,6 +152,7 @@
     border: 2px solid black;
     border-radius: 10px;
 }
+
 .cardBoxDesign:nth-child(11) .card .back {
     background-image: url('../../images/ejerciciosCode.jpg');
     background-size: cover;
@@ -159,6 +160,7 @@
     border: 2px solid black;
     border-radius: 10px;
 }
+
 .cardBoxDesign:nth-child(12) .card .back {
     background-image: url('../../images/curriculum.jpeg');
     background-size: cover;
@@ -167,17 +169,19 @@
     border-radius: 10px;
 }
 
-.noDeploy{
+.noDeploy {
     margin-top: 10px;
     width: 220px;
     background-color: rgba(229, 241, 59, 0.67);
 }
-.finishLine{
+
+.finishLine {
     margin-top: 10px;
     width: 220px;
     background-color: rgba(72, 248, 125, 0.67);
 }
-.developerLine{
+
+.developerLine {
     margin-top: 10px;
     width: 220px;
     background-color: rgba(255, 123, 123, 0.67);
@@ -215,15 +219,16 @@
 }
 
 @media only screen and (max-width: 767px) {
-    
+
     .cardsWrapper {
         width: 90%;
         margin-bottom: 20px;
     }
-    .cardBox{
+
+    .cardBox {
         margin-bottom: 30px;
     }
-    .front{
-        display: none;
-    }
+
+
+
 }
