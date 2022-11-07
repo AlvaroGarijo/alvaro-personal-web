@@ -73,100 +73,71 @@
     padding: 5px;
 }
 
-.cardBoxDesign:nth-child(1) .card .back {
-    background-image: url('../../images/MilesMorales.png');
+.cardBoxDesign .card .back {
     background-size: cover;
     background-position: center;
     border: 2px solid black;
     border-radius: 10px;
+}
+
+.cardBoxDesign:nth-child(1) .card .back {
+    background-image: url('../../images/MilesMorales.png');
+
 }
 
 .cardBoxDesign:nth-child(2) .card .back {
     background-image: url('../../images/elevador.jpeg');
-    background-size: cover;
-    background-position: center;
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 
 .cardBoxDesign:nth-child(3) .card .back {
     background-image: url('../../images/camaraFotos.jpeg');
-    background-size: cover;
-    background-position: center;
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 
 .cardBoxDesign:nth-child(4) .card .back {
     background-image: url('../../images/supermercado.jpeg');
-    background-size: cover;
-    background-position: center;
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 
 .cardBoxDesign:nth-child(5) .card .back {
     background-image: url('../../images/ejercicio.jpeg');
-    background-size: cover;
-    background-position: center;
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 
 .cardBoxDesign:nth-child(6) .card .back {
     background-image: url('../../images/escritor.jpeg');
-    background-size: cover;
-    background-position: center;
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 
 .cardBoxDesign:nth-child(7) .card .back {
     background-image: url('../../images/padel.jpeg');
-    background-size: cover;
-    background-position: center;
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 
 .cardBoxDesign:nth-child(8) .card .back {
     background-image: url('../../images/dental.jpeg');
-    background-size: cover;
-    background-position: center;
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 
 .cardBoxDesign:nth-child(9) .card .back {
     background-image: url('../../images/asesoriaFiscal.jpeg');
-    background-size: cover;
-    background-position: top;
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 
 .cardBoxDesign:nth-child(10) .card .back {
     background-image: url('../../images/sarfatiGarden.jpeg');
-    background-size: cover;
-    background-position: top;
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 
 .cardBoxDesign:nth-child(11) .card .back {
     background-image: url('../../images/ejerciciosCode.jpg');
-    background-size: cover;
-    background-position: center;
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 
 .cardBoxDesign:nth-child(12) .card .back {
     background-image: url('../../images/curriculum.jpeg');
-    background-size: cover;
-    background-position: center;
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 
 .noDeploy {
@@ -225,10 +196,56 @@
         margin-bottom: 20px;
     }
 
-    .cardBox {
+    .cardBoxDesign {
         margin-bottom: 30px;
     }
 
+    .cardBoxDesign:hover .card {
+        transform: none;
+    }
+
+    .cardBoxDesign .card .front {
+        background-size: cover;
+        background-position: center;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+    }
 
 
+    .cardBoxDesign:nth-child(1) .card .front {
+        background-image: url('../../images/MilesMorales.png');
+    }
+    .cardBoxDesign:nth-child(2) .card .front {
+        background-image: url('../../images/elevador.jpeg');
+    }
+    .cardBoxDesign:nth-child(3) .card .front {
+        background-image: url('../../images/camaraFotos.jpeg');
+    }
+    .cardBoxDesign:nth-child(4) .card .front {
+        background-image: url('../../images/supermercado.jpeg');
+    }
+    .cardBoxDesign:nth-child(5) .card .front {
+        background-image: url('../../images/ejercicio.jpeg');
+    }
+    .cardBoxDesign:nth-child(6) .card .front {
+        background-image: url('../../images/escritor.jpeg');
+    }
+    .cardBoxDesign:nth-child(7) .card .front {
+        background-image: url('../../images/padel.jpeg');
+    }
+    .cardBoxDesign:nth-child(8) .card .front {
+        background-image: url('../../images/dental.jpeg');
+    }
+    .cardBoxDesign:nth-child(9) .card .front {
+        background-image: url('../../images/asesoriaFiscal.jpeg');
+    }
+    .cardBoxDesign:nth-child(10) .card .front {
+        background-image: url('../../images/sarfatiGarden.jpeg');
+    }
+    .cardBoxDesign:nth-child(11) .card .front {
+        background-image: url('../../images/ejerciciosCode.jpg');
+    }
+    .cardBoxDesign:nth-child(12) .card .front {
+        background-image: url('../../images/curriculum.jpeg');
+    }
 }
