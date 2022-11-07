@@ -47,3 +47,23 @@
     box-shadow: 0px 0px 5px 0px gray;
     border-radius: 10px;
 }
+
+@media only screen and (max-width: 767px) {
+    .cardDesignWrapperPadelManager{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .cardImagePadelManagerDesign{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .cardImagePadelManagerMobile{
+        width: 80%;
+    }
+    .cardImagePadelManager{
+        width: 90%;
+    }
+
+}

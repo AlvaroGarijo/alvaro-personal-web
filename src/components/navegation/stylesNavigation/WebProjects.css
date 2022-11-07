@@ -71,7 +71,8 @@
 .linkBackMobile {
     display: none;
 }
-.stateMobile{
+
+.stateMobile {
     display: none;
 }
 
@@ -87,68 +88,50 @@
     padding: 5px;
 }
 
-.cardBox:nth-child(1) .card .back {
-    background-image: url('../../images/MilesMorales.png');
+.cardBox .card .back {
     background-size: cover;
     background-position: center;
     border: 2px solid black;
     border-radius: 10px;
+}
+
+.cardBox:nth-child(1) .card .back {
+    background-image: url('../../images/MilesMorales.png');
 }
 
 .cardBox:nth-child(2) .card .back {
     background-image: url('../../images/elevador.jpeg');
-    background-size: cover;
-    background-position: center;
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 
 .cardBox:nth-child(3) .card .back {
     background-image: url('../../images/camaraFotos.jpeg');
-    background-size: cover;
-    background-position: center;
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 
 .cardBox:nth-child(4) .card .back {
     background-image: url('../../images/supermercado.jpeg');
-    background-size: cover;
-    background-position: center;
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 
 .cardBox:nth-child(5) .card .back {
     background-image: url('../../images/ejercicio.jpeg');
-    background-size: cover;
-    background-position: center;
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 
 .cardBox:nth-child(6) .card .back {
     background-image: url('../../images/escritor.jpeg');
-    background-size: cover;
-    background-position: center;
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 
 .cardBox:nth-child(7) .card .back {
     background-image: url('../../images/padel.jpeg');
-    background-size: cover;
-    background-position: center;
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 
 .cardBox:nth-child(8) .card .back {
     background-image: url('../../images/ejerciciosCode.jpg');
-    background-size: cover;
-    background-position: center;
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 
 .cardBox:nth-child(2) .card {
@@ -211,17 +194,19 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .subtitleNavigationWebProject{
+    .subtitleNavigationWebProject {
         display: none;
     }
+
     .cardsWrapper {
         width: 90%;
         margin-bottom: 20px;
     }
 
-    .cardBox{
+    .cardBox {
         margin-bottom: 20px;
     }
+
     .cardBox:hover .card {
         transform: none;
     }
@@ -236,74 +221,57 @@
         text-shadow: 1px 1px 3px black;
         text-decoration: none;
     }
-    
-    .stateMobile{
+
+    .stateMobile {
         display: inline;
+    }
+
+    .cardBox .card .front {
+        background-size: cover;
+        background-position: center;
+        border: 2px solid black;
+        border-radius: 10px;
     }
 
     .cardBox:nth-child(1) .card .front {
         background-image: url('../../images/MilesMorales.png');
-        background-size: cover;
-        background-position: center;
-        border: 2px solid black;
-        border-radius: 10px;
+
     }
 
     .cardBox:nth-child(2) .card .front {
         background-image: url('../../images/elevador.jpeg');
-        background-size: cover;
-        background-position: center;
-        border: 2px solid black;
-        border-radius: 10px;
+
     }
 
     .cardBox:nth-child(3) .card .front {
         background-image: url('../../images/camaraFotos.jpeg');
-        background-size: cover;
-        background-position: center;
-        border: 2px solid black;
-        border-radius: 10px;
+
     }
 
     .cardBox:nth-child(4) .card .front {
         background-image: url('../../images/supermercado.jpeg');
-        background-size: cover;
-        background-position: center;
-        border: 2px solid black;
-        border-radius: 10px;
+
     }
 
     .cardBox:nth-child(5) .card .front {
         background-image: url('../../images/ejercicio.jpeg');
-        background-size: cover;
-        background-position: center;
-        border: 2px solid black;
-        border-radius: 10px;
+
 
     }
 
     .cardBox:nth-child(6) .card .front {
         background-image: url('../../images/escritor.jpeg');
-        background-size: cover;
-        background-position: center;
-        border: 2px solid black;
-        border-radius: 10px;
+
     }
 
     .cardBox:nth-child(7) .card .front {
         background-image: url('../../images/padel.jpeg');
-        background-size: cover;
-        background-position: center;
-        border: 2px solid black;
-        border-radius: 10px;
+
     }
 
     .cardBox:nth-child(8) .card .front {
         background-image: url('../../images/ejerciciosCode.jpg');
-        background-size: cover;
-        background-position: center;
-        border: 2px solid black;
-        border-radius: 10px;
+
     }
 
 }

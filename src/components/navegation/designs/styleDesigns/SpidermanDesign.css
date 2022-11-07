@@ -148,6 +148,14 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) {}
 
 @media only screen and (max-width: 767px) {
+    .webDesign{
+        width: 90%;
+        text-align: center;
+    }
+    .headerDesignWrapper {
+        width: 100%;
+        margin-bottom: 50px;
+    }
 
     .headerDesignWrapper,
     .buttonsColors {
@@ -157,6 +165,27 @@
         align-items: center;
         margin: auto;
         text-align: center;
+
     }
+
+    .cardDesignWrapper {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .cardImageSpider {
+        width: 90%;
+    }
+
+    .responsiveDesignWrapper{
+        width: 100%;
+    }
+
+    .responMobile,
+    .responTablet{
+        width: 70%;
+    }
+
+    
 
 }

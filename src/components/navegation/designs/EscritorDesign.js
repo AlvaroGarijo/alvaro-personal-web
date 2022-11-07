@@ -24,9 +24,9 @@ export const EscritorDesign = () => {
             </div>
         </div>
     </div>
-    <div className='cardDesignWrapperFenixFit'>
+    <div className='cardDesignWrapperEscritor'>
     <p className='titleCardDesign'>Ejemplo de Diseño Responsive: </p>
-            <img className='cardImageFenixFit' src={responsiveEscritor} alt='card'/>
+            <img className='cardImageEscritor' src={responsiveEscritor} alt='card'/>
     </div>
 
     <div className='linkComeBackDesignsWrapper'>
