@@ -211,7 +211,9 @@
 }
 
 @media only screen and (max-width: 767px) {
-
+    .subtitleNavigationWebProject{
+        display: none;
+    }
     .cardsWrapper {
         width: 90%;
         margin-bottom: 20px;
